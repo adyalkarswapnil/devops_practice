@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 LABEL author="swapnil"
-RUN apt-get-update && \
+RUN apt-get update && \
     apt-get install apache2 unzip -y
 
 ADD https://templatemo.com/download/templatemo_631_kinetic /var/www/html/templatemo_631_kinetic.zip
